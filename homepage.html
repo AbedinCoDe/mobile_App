@@ -32,7 +32,7 @@
                                 <div class="stat-desc">Available balance</div>
                             </div>
                         </div>
-                        <button class="text-lg bg-slate-200 cursor-pointer w-20 h-10 rounded-md">Logout</button>
+                        <button id="log_Out" class="text-lg bg-slate-200 cursor-pointer w-20 h-10 rounded-md">Logout</button>
                     </div>
                     <div class="flex w-full flex-col">
                         <div class="divider -mt-3"></div>
@@ -52,7 +52,7 @@
                                     <span>Add Money</span>
                                 </div>
                             </button>
-                            <button class="btn text-center flex flex-col w-30 h-25 rounded-lg">
+                            <button id="withdraw_Money" class="btn text-center flex flex-col w-30 h-25 rounded-lg">
                                 <div class="add_money_Icon">
                                     <img src="assets/send1.png" alt="">
                                 </div>
@@ -103,6 +103,16 @@
                             <input id="pin_Number" type="password" class="input" placeholder="Enter Your Pin" />
 
                             <button id="for_Add_Money_Button" class="btn btn-neutral mt-4">Add Money</button>
+                        </fieldset>
+
+                        <fieldset id="for_Cash_Out" class="fieldset w-xs bg-base-200 border border-base-300 p-4 rounded-box mt-5 hidden">
+                            <label class="fieldset-label">Amount To Withdraw</label>
+                            <input id="amount_To_Withdraw" type="email" class="input" placeholder="Withdraw Amount" />
+
+                            <label class="fieldset-label">Pin Number</label>
+                            <input id="withdraw_pin_Number" type="password" class="input" placeholder="Enter Your Pin" />
+
+                            <button id="for_Withdraw_Button" class="btn btn-neutral mt-4">Withdraw Money</button>
                         </fieldset>
 
                     </div>
