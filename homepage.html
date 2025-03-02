@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo Homepage</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+    <main class="flex justify-center">
+        <div class="mockup-phone">
+            <div class="mockup-phone-camera"></div>
+
+
+            <div class="mockup-phone-display bg-slate-100 flex flex-wrap gap-2 p-1">
+                <div class="w-full">
+                    <div class="mt-12 flex align-middle justify-between w-full h-25 p-3">
+                        <div class="flex align-middle h-full">
+                            <img class="h-10" src="assets/Group.png" alt="">
+                            <div class="">
+                                <div class="text-2xl">
+                                    <span id="display_Amount">
+                                        89400
+                                    </span>
+                                </div>
+                                <div class="stat-desc">Available balance</div>
+                            </div>
+                        </div>
+                        <button class="text-lg bg-slate-200 cursor-pointer w-20 h-10 rounded-md">Logout</button>
+                    </div>
+                    <div class="flex w-full flex-col">
+                        <div class="divider -mt-3"></div>
+
+                        <div class="heading p-5 -mt-5">
+                            <h1 class="text-xl font-bold mb-4">🔥 WelCome To Payoo</h1>
+                            <p class="text-gray-500 mb-5">Enjoy easy and convenient financial services with us. Cashout
+                                charge is low and </p>
+                        </div>
+
+                        <div class="all_button grid grid-cols-3 gap-1">
+                            <button id="add_Money" class="btn text-center flex flex-col w-30 h-25 rounded-lg">
+                                <div class="add_money_Icon">
+                                    <img src="assets/wallet1.png" alt="">
+                                </div>
+                                <div class="add_money_Text text-gray-500">
+                                    <span>Add Money</span>
+                                </div>
+                            </button>
+                            <button class="btn text-center flex flex-col w-30 h-25 rounded-lg">
+                                <div class="add_money_Icon">
+                                    <img src="assets/send1.png" alt="">
+                                </div>
+                                <div class="add_money_Text text-gray-500">
+                                    <span>Cash Out</span>
+                                </div>
+                            </button>
+                            <button class="btn text-center flex flex-col w-30 h-25 rounded-lg">
+                                <div class="add_money_Icon">
+                                    <img src="assets/money1.png" alt="">
+                                </div>
+                                <div class="add_money_Text text-gray-500">
+                                    <span>Transfer Money</span>
+                                </div>
+                            </button>
+                            <button class="btn text-center flex flex-col w-30 h-25 rounded-lg">
+                                <div class="add_money_Icon">
+                                    <img src="assets/bonus1.png" alt="">
+                                </div>
+                                <div class="add_money_Text text-gray-500">
+                                    <span>Get Bonus</span>
+                                </div>
+                            </button>
+                            <button class="btn text-center flex flex-col w-30 h-25 rounded-lg">
+                                <div class="add_money_Icon">
+                                    <img src="assets/purse1.png" alt="">
+                                </div>
+                                <div class="add_money_Text text-gray-500">
+                                    <span>Pay Bill</span>
+                                </div>
+                            </button>
+                            <button class="btn text-center flex flex-col w-30 h-25 rounded-lg">
+                                <div class="add_money_Icon">
+                                    <img src="assets/transaction1.png" alt="">
+                                </div>
+                                <div class="add_money_Text text-gray-500">
+                                    <span>Transactions</span>
+                                </div>
+                            </button>
+                        </div>
+
+                        <fieldset id="for_Add_Money_Field" class="fieldset w-xs bg-base-200 border border-base-300 p-4 rounded-box mt-5 hidden">
+
+                            <label class="fieldset-label">Amount To Add</label>
+                            <input id="amount_To_Add" type="email" class="input" placeholder="Amount To Add" />
+
+                            <label class="fieldset-label">Pin Number</label>
+                            <input id="pin_Number" type="password" class="input" placeholder="Enter Your Pin" />
+
+                            <button id="for_Add_Money_Button" class="btn btn-neutral mt-4">Add Money</button>
+                        </fieldset>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        </div>
+    </main>
+
+    <script src="homepage.js"></script>
+</body>
+
+</html>

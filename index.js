@@ -11,5 +11,9 @@ document.getElementById('login_Btn').addEventListener('click', function(event){
     pin.value = '';
 
     
-    console.log(getPhonNumber, getPinNumber)
+    if(getPhonNumber === '01767' && getPinNumber === "1234"){
+        window.location.href = ('\homepage.html')
+    }else{
+        alert("You Got an error")
+    }
 })
