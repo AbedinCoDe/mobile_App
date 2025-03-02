@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- daisy Ui Linkup -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+    <main class="flex justify-center">
+        <div class="mockup-phone">
+            <div class="mockup-phone-camera"></div>
+            <div class="mockup-phone-display grid place-content-center bg-slate-100">
+                <div class="relative">
+                    <img src="assets/bg.png" alt="" class="absolute -top-40">
+                    <img src="assets/Group.png" alt="" class="absolute -top-30 left-23">
+                </div>
+                <div class="shadow-md p-10 bg-white rounded-3xl">
+                    <fieldset class="fieldset">
+                        <label class="fieldset-label">Phone Number</label>
+                        <input id="phon_Number" type="email" class="input rounded-lg" placeholder="Phone" />
+                        <label class="fieldset-label">Pin Number</label>
+                        <input id="pin_Number" type="password" class="input rounded-lg" placeholder="4 Digit Pin" />
+                        <div><a class="link link-hover">Forgot Pin?</a></div>
+                        <button id="login_Btn" class="btn mt-4 bg-blue-600 text-white rounded-2xl">Login</button>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
